@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.counter button{ 
+ padding: 8px 15px;
+ background-color: #5900ff; 
+ border: none; 
+ margin-left: 10px; 
+ color: white; 
+ border-radius: 10px; 
+ font-weight: 500;
+}
+.counter button:hover{ 
+ padding: 8px 15px;
+ background-color: #ff00dd; 
+ border: none; 
+ margin-left: 10px; 
+ color: white; 
+ border-radius: 10px; 
+ font-weight: 500;
+ filter: drop-shadow(5px 5px 10px #37a2fa); 
+ transition: 1s;
+}
